@@ -2,6 +2,14 @@ API Pléiade pour SSO avec LemonLDAP
 
 // TODO : doc ! + passer le README en .md
 
+Ce module a été créé pour récupérer les informations renvoyées par LemonLdap concernant l'utilisateur connecté. 
+
+Pour se faire, le module appelle l'API interne de drupal qui elle même appelle l'api Externe de LemonLDAP. 
+
+La réponse de L'API se fait au format JSON. Le module récupère cette réponse et la formate pour récupérer les différentes valeurs contenu dans le JSON. 
+
+La première tache du module est des créer un menu contenant les applications renvoyé par Lemon.
+
 // TODO : indiquer qu'il faut le mod php-curl (phpenmod curl)
 
 exemple d'une requête curl Lemon / Myapplications :
